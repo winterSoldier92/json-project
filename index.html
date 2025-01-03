@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c13fa7da5.js" crossorigin="anonymous"></script>
+  <title>Appi json</title>
+  <script type="module" crossorigin src="/json-project/assets/main-BYv4gALl.js"></script>
+  <link rel="stylesheet" crossorigin href="/json-project/assets/style-jzYwZvUy.css">
+</head>
+
+<body>
+  <!-- <a href="src/pages/login/login.html">Login</a> -->
+
+  <div class="wrapper">
+    <div class="container app-stats">
+      <div class="title-form">
+        <h1 class="title">Cash App</h1>
+        <button class="transaction__burger">
+          <span class="transaction__burger-box">
+            <span class="transaction__burger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <div class="add__form">
+        <h2 class="add__title">Add Transaction</h2>
+        <div class="add__items">
+          <div class="add__input-field">
+            <input type="text" placeholder="Transaction Name" id="item-name">
+          </div>
+          <div class="add__input-field">
+            <input type="number" placeholder="Transaction Value" id="item-money">
+          </div>
+          <input type="hidden" id="id" value="">
+        </div>
+        <span class="add__category">Category</span>
+        <select id="category">
+          <option value="" selected disabled>Select</option>
+          <option value=""> [ + ] Incomes</option>
+          <option value=""> [ - ] Home</option>
+          <option value=""> [ - ] Entertaiment</option>
+          <option value=""> [ - ] Shopping</option>
+        </select>
+        <div class="add__btns">
+          <button class="add-btn btn "><i class="fa fa-plus"></i> Add</button>
+          <button class="update-btn btn "><i class="fa fa-pencil-square-o"></i> Update</button>
+          <button class="delete-btn btn "><i class="fa fa-remove"></i> Delete </button>
+          <button class="back-btn btn"><i class="fa fa-chevron-circle-left"></i> Back</button>
+        </div>
+      </div>
+      <div class="total__form">
+        <div class="total__box">
+          <svg>
+            <circle stroke="#f0f0f0" cx="140" cy="140"  r="130" ></circle>
+            <circle stroke="" cx="140" cy="140"  r="130" style="--percent:0"></circle>
+          </svg>
+          <div class="total__percent">0%</div>
+          <div class="total__info">Total cash: <span class="total__cash">0$</span></div>
+          
+        </div>
+      </div>
+
+    </div>
+    <div class="container transactions">
+      <h1 class="title list-title">List of transaction</h1>
+      <div class="transaction-form">
+        <button class="btn-remove">CLear List</button>
+        <ul class="transaction-list">
+          <!-- <li class="transaction" id="0">
+            <p class="transaction-name"><i class="fas fa-money-bill-wave"></i>Wycieczka</p>
+            <p class="transaction-amount">-2000zł <button class="edit"><i class="fa fa-pencil"></i></button></p>
+          </li> -->
+         
+
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
